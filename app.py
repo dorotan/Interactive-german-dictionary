@@ -21,11 +21,9 @@ def dictionary(w):
 
 if __name__ == "__main__":
     word = input("Wpisz słowo: ")
-
-output = dictionary(word)
-
-if type(output) == list:
-    for item in output:
-        print(item)
-else:
-    print(output)
+    output = dictionary(word)
+    if type(output) == list:
+        for item in output:
+            print(item)
+    else:
+        print(output)
