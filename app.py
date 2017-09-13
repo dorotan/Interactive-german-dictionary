@@ -19,7 +19,8 @@ def dictionary(w):
     else:
         return "Słowo nie istnieje w słowniku. Spróbuj z innym słowem."
 
-word = input("Wpisz słowo: ")
+if __name__ == "__main__":
+    word = input("Wpisz słowo: ")
 
 output = dictionary(word)
 
